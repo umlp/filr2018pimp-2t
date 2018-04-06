@@ -14,7 +14,6 @@ before_script:
   - composer install --no-progress --no-interaction --prefer-dist --no-suggest
   - mysql -e 'CREATE DATABASE homestead;'
   - cp .env.travis .env.testing
-  - chmod -R 777 app/storage
   - php artisan migrate:install --env=testing --no-interaction -vvv
 
 script:
