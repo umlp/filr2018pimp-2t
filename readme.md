@@ -3,6 +3,11 @@
    - correction la plus pertinente : cp .env.travis .env (.env.testing n'est pas pris en charge par travis)
 
 
+
+
+
+
+
 # DOCUMENTATION
 # Laravel Quickstart - Basic
 
