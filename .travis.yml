@@ -12,7 +12,7 @@ cache:
 
 before_script:
   - composer install --no-progress --no-interaction --prefer-dist --no-suggest
-  - mysql -e 'CREATE DATABASE homestead;'
+  - mysql -e 'CREATE DATABASE forge;'
   - cp .env.travis .env.testing
   - php artisan migrate:install --env=testing --no-interaction -vvv
 
