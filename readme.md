@@ -9,19 +9,26 @@
 
 
 # DOCUMENTATION
+## Introduction
+Basé sur Laravel 5.2, testé avec PHP 7.0 en local.
+
 ## Installation en local
 
-    git clone https://github.com/laravel/quickstart-basic quickstart
-
-    cd quickstart
+    console> cd /tmp
     
-    cp .env.local .env
+    console> git clone https://github.com/laravel/quickstart-basic quickstart
 
-    composer install
+    console> cd quickstart
+    
+    console> cp .env.local .env
 
-    php artisan migrate
+    console> composer install
 
-    php artisan serve
+    console> php artisan migrate
+
+    console> php artisan serve
+    
+    navigateur> http://localhost:8000/
 
 [Complete Tutorial](https://laravel.com/docs/5.2/quickstart)
 
