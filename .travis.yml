@@ -14,7 +14,7 @@ cache:
 before_script:
   - composer install --no-progress --no-interaction --prefer-dist --no-suggest
   - mysql -e 'CREATE DATABASE forge;'
-  - cp .env.travis .env.testing
+  - cp .env.travis .env
   - php artisan migrate:install --env=testing --no-interaction -vvv
 
 script:
