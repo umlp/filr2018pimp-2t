@@ -14,6 +14,8 @@
     git clone https://github.com/laravel/quickstart-basic quickstart
 
     cd quickstart
+    
+    cp .env.local .env
 
     composer install
 
