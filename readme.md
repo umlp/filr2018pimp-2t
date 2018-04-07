@@ -14,6 +14,9 @@ Basé sur Laravel 5.2, testé avec PHP 7.0 en local.
 
 ## Installation en local
 
+    navigateur> http://localhost/phpmyadmin
+      créer une base de données FILR4LARAVEL
+
     console> cd /tmp
     
     console> git clone https://github.com/laravel/quickstart-basic quickstart
@@ -21,7 +24,10 @@ Basé sur Laravel 5.2, testé avec PHP 7.0 en local.
     console> cd quickstart
     
     console> cp .env.local .env
-
+    
+    console> vi .env
+       indiquer le mot de passe de la base sur la variable d'environnement DB_PASSWORD
+       
     console> composer install
 
     console> php artisan migrate
