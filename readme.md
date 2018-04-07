@@ -41,11 +41,13 @@ Basé sur Laravel 5.2, testé avec PHP 7.0 en local.
 
 # Installation en distant - HEROKU
 
-## Les principales difficultés
+## Les principales difficultés pour déployer du Laravel sous HEROKU
  - Toutes les opérations ne peuvent être faite en ligne sur https://dashboard.heroku.com/apps/, l'usage d'un client heroku-cli installé en local est quelquefois indispensable :(
  - HEROKU ne voit pas les variables d'environnement déclarées dans .env
    - Les variables d'environnement doivent être déclarées
      - soit sur le portail https://dashboard.heroku.com/apps/filrouge2quickstart/settings
      - soit via la ligne de commande : heroku config:set DATABASE_URL=postgres://username:password@machine:5432/database
-     
- - 
+ - HEROKU supporte nativement Postgres et le paramétrage passe NECESSAIREMENT par la variable d'environnement DATABASE_URL
+ - les opérations d'initialisation ne peuvent être scriptée et doivent exécutées
+   - soit via la console du portail https://dashboard.heroku.com/apps/filrouge2quickstart/settings
+   - soit via la ligne de commande : heroku run php artisan migrate:refresh --env=testing --no-interaction -vvv --app filrouge2quickstart
