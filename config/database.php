@@ -65,6 +65,7 @@ return [
             'engine'    => null,
         ],
 
+ /*
         'pgsql' => [
             'driver'   => 'pgsql',
             'host'     => env('DB_HOST', 'localhost'),
@@ -75,7 +76,33 @@ return [
             'prefix'   => '',
             'schema'   => 'public',
         ],
-
+*/
+        
+        /*
+            in HEROKU, all information are stored in only one variable : DATABASE_URL
+            exemple from the dashboard : https://data.heroku.com/datastores/b4ea4a9b-b9c9-441b-a7ac-30d5109180bc#administration
+            it called a URI :
+            postgres://uuuuuuuuuuuu:ppppppppppppppp@ec2-79-125-110-209.eu-west-1.compute.amazonaws.com:5432/dddddddd
+            where
+              - uuuuuuuuuu : an awful username given by HEROKU when the Postgres add-on is activated on the application
+              - pppppppppp : an awful password
+              - dddddddddd : an awful database name !
+            
+            for compatibility with HEROKU
+        */
+        
+        'pgsql' => [
+            'driver' => 'pgsql',
+            'host'     => parse_url(getenv('DATABASE_URL'), PHP_URL_HOST),
+            'database' => substr(parse_url(getenv('DATABASE_URL'), PHP_URL_PATH), 1),
+            'username' => parse_url(getenv('DATABASE_URL'), PHP_URL_USER),
+            'password' => parse_url(getenv('DATABASE_URL'), PHP_URL_PASS),
+            'charset' => 'utf8',
+            'prefix' => '',
+            'schema' => 'public',
+            'sslmode' => 'prefer',
+        ],        
+        
         'sqlsrv' => [
             'driver'   => 'sqlsrv',
             'host'     => env('DB_HOST', 'localhost'),
