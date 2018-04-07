@@ -1,3 +1,9 @@
+# BILAN
+ - branche V4 : la connection à la BD est enfin opérationnelle
+   - correction la plus pertinente : cp .env.travis .env (.env.testing n'est pas pris en charge par travis)
+
+
+# DOCUMENTATION
 # Laravel Quickstart - Basic
 
 ## Quck Installation
