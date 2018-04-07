@@ -51,3 +51,11 @@ Basé sur Laravel 5.2, testé avec PHP 7.0 en local.
  - les opérations d'initialisation ne peuvent être scriptée et doivent exécutées
    - soit via la console du portail https://dashboard.heroku.com/apps/filrouge2quickstart/settings
    - soit via la ligne de commande : heroku run php artisan migrate:refresh --env=testing --no-interaction -vvv --app filrouge2quickstart
+
+
+Liste de commande (qui peuvent être jouées dans la console en ligne)
+ - php artisan migrate:install --env=testing --no-interaction -vvv --app filrouge2quickstart 
+ - heroku run php artisan migrate:refresh --env=testing --no-interaction -vvv
+ - heroku config:set APP_ENV=development APP_DEBUG=true APP_LOG_LEVEL=debug
+ - heroku config:set APP_KEY=b809vCwvtawRbsG0BmP1tWgnlXQypSKf
+ - heroku config:set APP_LOG=errorlog
