@@ -9,9 +9,7 @@
 
 
 # DOCUMENTATION
-# Laravel Quickstart - Basic
-
-## Quck Installation
+## Installation en local
 
     git clone https://github.com/laravel/quickstart-basic quickstart
 
@@ -25,4 +23,5 @@
 
 [Complete Tutorial](https://laravel.com/docs/5.2/quickstart)
 
-Copie locale
+
+# Installation en distant - HEROKU
