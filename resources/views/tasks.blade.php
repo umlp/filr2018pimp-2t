@@ -67,7 +67,7 @@
         var nom = document.getElementById("nom-coloc").value;
         alert(nom);
         alert("2");
-        $("listcoloc"   ).append( "<li><a href="#">" $nom "</a></li>" );
+        // $("listcoloc"   ).append( "<li><a href="#">" $nom "</a></li>" );
         alert("1");
     }
     </script>
