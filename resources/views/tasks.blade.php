@@ -48,7 +48,7 @@
 
 
     <script type="text/javascript">
-    function ajoute()
+    function ajoute()gd 
     {
         // alert("0");
         // alert("test1");
@@ -56,8 +56,7 @@
         alert(nom);
         var menu = document.getElementById("listcoloc");
         alert("2");
-        // alert(menu.name);
-        // menu.append("<li><a href="#">" $nom "</a></li>");
+        menu.append("<li><a href="#">" $nom "</a></li>");
     }
     </script>
 
