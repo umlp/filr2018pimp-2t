@@ -1,9 +1,10 @@
 @extends('layouts.app')
 
 @section('content')
+
+    <!-- menu -->
     <div class="collapse navbar-collapse" id="navBar">
         <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Home</a></li>
         <li class="dropdown">
           <a class="dropdown-toggle" data-toggle="dropdown"  href="#">Mes Collocation <span class="caret"></span></a>
           <ul class="dropdown-menu" id="listcoloc">
@@ -13,6 +14,7 @@
       </ul>
     </div>
 
+    <!-- ajout colloc -->
     <div class="container">
         <div class="col-sm-offset-2 col-sm-8">
             <div class="panel panel-default">
@@ -67,8 +69,7 @@
         var nom = document.getElementById("nom-coloc").value;
         alert(nom);
         var mvfsenu = document.getElementById("listcoloc");
-        alert(menu.className);
-        // menu.append("<li><a href="#">" $nom "</a></li>");
+        menu.append("<li><a href="#">" $nom "</a></li>");
     }
     </script>
 
