@@ -48,7 +48,7 @@
 
 
     <script type="text/javascript">
-    function ajoute()gd 
+    function ajoute()
     {
         // alert("0");
         // alert("test1");
