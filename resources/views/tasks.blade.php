@@ -54,9 +54,9 @@
         // alert("test1");
         var nom = document.getElementById("nom-coloc").value;
         alert(nom);
-        var menu = document.getElementById("listcoloc");
-        alert(menu.className);
-        menu.append("<li><a href="#">" $nom "</a></li>");
+        // var menu = document.getElementById("listcoloc");
+        // alert(menu.className);
+        // menu.append("<li><a href="#">" $nom "</a></li>");
     }
     </script>
 
