@@ -51,8 +51,9 @@
     function ajoute()
     {
         var nom = document.getElementById("nom-coloc").value;
+        alert("1");
         var menu = document.getElementById("listcoloc");
-        alert();
+        alert("2");
         alert(menu.name);
         menu.append("<li><a href="#">" $nom "</a></li>");
     }
