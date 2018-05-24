@@ -10,7 +10,7 @@
           <ul class="dropdown-menu" id="listcoloc">
           </ul>
         </li>
-        <li><a href="#">Statistiques</a></li>
+        <li><a href="~/Bureau/ASI3/SEMESTRE2/UML/filr2018pimp-2t/stats.html">Statistiques</a></li>
       </ul>
     </div>
 
@@ -67,7 +67,7 @@
         var nom = document.getElementById("nom-coloc").value;
         alert(nom);
         alert("2");
-        $( "listcoloc" ).append( "<li><a href="#">" $nom "</a></li>" );
+        $("listcoloc"   ).append( "<li><a href="#">" $nom "</a></li>" );
         alert("1");
     }
     </script>
