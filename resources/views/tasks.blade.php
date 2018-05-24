@@ -7,8 +7,7 @@
         <ul class="nav navbar-nav">
         <li class="dropdown">
           <a class="dropdown-toggle" data-toggle="dropdown"  href="#">Mes Colocations <span class="caret"></span></a>
-          <ul class="dropdown-menu" id="listcoloc">
-          </ul>
+          <ul class="dropdown-menu" id="listcoloc"></ul>
         </li>
         <li><a href="stats.html">Statistiques</a></li>
       </ul>
