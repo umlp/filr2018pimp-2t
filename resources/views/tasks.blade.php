@@ -66,7 +66,9 @@
     {
         var nom = document.getElementById("nom-coloc").value;
         alert(nom);
+        alert("2");
         $( "listcoloc" ).append( "<li><a href="#">" $nom "</a></li>" );
+        alert("1");
     }
     </script>
 
@@ -81,7 +83,8 @@
                     <div class="panel-body">
                         <table class="table table-striped task-table">
                             <thead>
-                                <th>Task</th>
+                                <th>Nom</th>
+                                <th>Image</th>
                                 <th>&nbsp;</th>
                             </thead>
                             <tbody>
