@@ -60,12 +60,12 @@
             </div>
 
     <ul id="test">Ma Liste </ul>
-    
+
     <script type="text/javascript">
     function ajoute()
     {
         var nom = document.getElementById("nom-coloc").value;
-        alert("1");
+        alert(nom);
         var menu = document.getElementById("listcoloc");
         var li = document.createElement("LI");
         var a = document.createElement("A");
