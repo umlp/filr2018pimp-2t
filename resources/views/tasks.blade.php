@@ -6,7 +6,7 @@
     <div class="collapse navbar-collapse" id="navBar">
         <ul class="nav navbar-nav">
         <li class="dropdown">
-          <a class="dropdown-toggle" data-toggle="dropdown"  href="#">Mes Collocation <span class="caret"></span></a>
+          <a class="dropdown-toggle" data-toggle="dropdown"  href="#">Mes Colocations <span class="caret"></span></a>
           <ul class="dropdown-menu" id="listcoloc">
           </ul>
         </li>
@@ -66,7 +66,7 @@
     {
         var nom = document.getElementById("nom-coloc").value;
         alert(nom);
-        $("listcoloc"   ).append( "<li><a href="#">" $nom "</a></li>" );
+        $("listcoloc").append( "<li><a href="#">" $(nom) "</a></li>" );
     }
     </script>
 
