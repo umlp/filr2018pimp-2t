@@ -51,7 +51,7 @@
     function ajoute()
     {
         var nom = document.getElementById("nom-coloc").value;
-        $("#listcoloc").append("<li><a href="#">" $nom "</a></li>");
+       
         alert(nom);
     }
     </script>
