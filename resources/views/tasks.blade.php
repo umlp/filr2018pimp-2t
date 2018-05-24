@@ -52,6 +52,7 @@
     {
         var nom = document.getElementById("nom-coloc").value;
         var menu = document.getElementById("listcoloc");
+        alert(menu.name)
         menu.append("<li><a href="#">" $nom "</a></li>");
     }
     </script>
