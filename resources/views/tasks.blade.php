@@ -10,7 +10,7 @@
           <ul class="dropdown-menu" id="listcoloc">
           </ul>
         </li>
-        <li><a href="~/Bureau/ASI3/SEMESTRE2/UML/filr2018pimp-2t/stats.html">Statistiques</a></li>
+        <li><a href="../stats.html">Statistiques</a></li>
       </ul>
     </div>
 
