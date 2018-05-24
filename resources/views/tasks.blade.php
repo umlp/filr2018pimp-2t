@@ -37,7 +37,7 @@
                         <!-- Add Task Button -->
                         <div class="form-group">
                             <div class="col-sm-offset-3 col-sm-6">
-                                <button type="submit" class="btn btn-default">
+                                <button type="submit" class="btn btn-default"  onClick="ajoute()">
                                     <i class="fa fa-btn fa-plus"></i>Ajouter la colocation
                                 </button>
                             </div>
@@ -45,6 +45,16 @@
                     </form>
                 </div>
             </div>
+
+
+    <script type="text/javascript">
+    function ajoute()
+    {
+        var nom = document.getElementById("surface").value;
+        alert(nom);
+    }
+    </script>
+
 
             <!-- Current Tasks -->
             @if (count($tasks) > 0)
