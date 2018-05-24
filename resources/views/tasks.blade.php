@@ -1,6 +1,18 @@
 @extends('layouts.app')
 
 @section('content')
+    <div class="collapse navbar-collapse" id="navBar">
+        <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown"  href="#">Mes Collocation <span class="caret"></span></a>
+          <ul class="dropdown-menu" id="listcoloc">
+          </ul>
+        </li>
+        <li><a href="#">Statistiques</a></li>
+      </ul>
+    </div>
+
     <div class="container">
         <div class="col-sm-offset-2 col-sm-8">
             <div class="panel panel-default">

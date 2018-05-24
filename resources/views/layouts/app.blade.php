@@ -39,17 +39,9 @@
       </button>
       <a class="navbar-brand" href="#">ColocManager</a>
     </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Home</a></li>
-        <li class="dropdown">
-          <a class="dropdown-toggle" data-toggle="dropdown" id="listcoloc" href="#">Mes Collocation <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-          </ul>
-        </li>
-        <li><a href="#">Statistiques</a></li>
-      </ul>
+    <div class="collapse navbar-collapse" id="navBarDebut">
       <ul class="nav navbar-nav navbar-right">
+        <li class="active"><a href="#">Home</a></li>
         <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
         <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
       </ul>
