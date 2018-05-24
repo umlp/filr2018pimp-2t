@@ -50,10 +50,10 @@
     <script type="text/javascript">
     function ajoute()
     {
-        alert("0");
+        // alert("0");
         // alert("test1");
-        // var nom = document.getElementById("nom-coloc").value;
-        // alert("nom");
+        var nom = document.getElementById("nom-coloc").value;
+        alert("nom");
         // var menu = document.getElementById("listcoloc");
         // alert("2");
         // alert(menu.name);
