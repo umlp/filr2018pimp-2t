@@ -63,6 +63,7 @@
                                 @foreach ($tasks as $task)
                                     <tr>
                                         <td class="table-text"><div>{{ $task->name }}</div></td>
+                                        <td class="table-img"><div>{{ $task->img }}</div> </td>
 
                                         <!-- Task Delete Button -->
                                         <td>
