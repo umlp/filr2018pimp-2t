@@ -65,7 +65,7 @@
     function ajoute()
     {
         var nom = document.getElementById("nom-coloc").value;
-        alert(nom);
+        alert("1");
         var menu = document.getElementById("listcoloc");
         var li = document.createElement("LI");
         var a = document.createElement("A");
