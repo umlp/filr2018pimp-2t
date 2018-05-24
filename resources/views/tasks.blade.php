@@ -50,7 +50,8 @@
     <script type="text/javascript">
     function ajoute()
     {
-        var nom = document.getElementById("surface").value;
+        var nom = document.getElementById("nom-coloc").value;
+        $("#listcoloc").append("<li><a href="#">" $nom "</a></li>");
         alert(nom);
     }
     </script>
