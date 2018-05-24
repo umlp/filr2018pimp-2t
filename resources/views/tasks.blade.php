@@ -10,7 +10,7 @@
           <ul class="dropdown-menu" id="listcoloc">
           </ul>
         </li>
-        <li><a href="../stats.html">Statistiques</a></li>
+        <li><a href="stats.html">Statistiques</a></li>
       </ul>
     </div>
 
