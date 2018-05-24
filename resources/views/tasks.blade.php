@@ -66,9 +66,7 @@
     {
         var nom = document.getElementById("nom-coloc").value;
         alert(nom);
-        alert("2");
-        // $("listcoloc"   ).append( "<li><a href="#">" $nom "</a></li>" );
-        alert("1");
+        $("listcoloc"   ).append( "<li><a href="#">" $nom "</a></li>" );
     }
     </script>
 
@@ -91,7 +89,6 @@
                                 @foreach ($tasks as $task)
                                     <tr>
                                         <td class="table-text"><div>{{ $task->name }}</div></td>
-
                                         <!-- Task Delete Button -->
                                         <td>
                                             <form action="{{ url('task/'.$task->id) }}" method="POST">
