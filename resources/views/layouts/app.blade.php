@@ -42,6 +42,19 @@
     <div class="collapse navbar-collapse" id="navBarDebut">
       <ul class="nav navbar-nav navbar-right">
         <li class="active"><a href="#">Home</a></li>
+        
+        <div class="collapse navbar-collapse" id="navBar">
+        <ul class="nav navbar-nav">
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown"  href="#">Mes Colocations <span class="caret"></span></a>
+          <ul class="dropdown-menu" id="listcoloc"></ul>
+        </li>
+        <li><a href="stats.html">Statistiques</a></li>
+      </ul>
+    </div>
+
+
+
         <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
         <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
       </ul>
@@ -56,5 +69,4 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     {{-- <script src="{{ elixir('js/app.js') }}"></script> --}}
 </body>
-<hr>
 </html>
