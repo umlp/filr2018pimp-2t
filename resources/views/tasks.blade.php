@@ -42,7 +42,7 @@
                         <div class="form-group">
                             <div class="col-sm-offset-3 col-sm-6">
                                 <button type="submit" class="btn btn-default"  onClick="ajoute()">
-                                    <i class="fa fa-btn fa-plus"> Ajouter le collataire </i>
+                                    <i class="fa fa-btn fa-plus"> Ajouter le colocataire </i>
                                 </button>
                             </div>
                         </div>
@@ -50,13 +50,13 @@
                 </div>
             </div>
 
-    <ul id="test">Ma Liste </ul>
+    <!-- <ul id="test">Ma Liste </ul> -->
 
     <script type="text/javascript">
     function ajoute()
     {
         var nom = document.getElementById("nom-coloc").value;
-        alert(nom);
+        // alert(nom);
         var menu = document.getElementById("listcoloc");
         var li = document.createElement("LI");
         var a = document.createElement("A");
@@ -64,8 +64,8 @@
         a.href="#";
         a.appendChild(t);
         li.appendChild(a);
-        var test = document.getElementById("test");
-        test.appendChild(li);
+        // var test = document.getElementById("test");
+        menu.appendChild(li);
     }
     </script>
 
@@ -117,4 +117,5 @@ Comment ne pas suprimer les ajout dynamiques au code html
 comment ajouter un champs image à task pour pouvoir l'afficher sur l'ajout des taches
 comment naviguer entre plusieurs pages (et en rajouter)
 Si j'ai le droit me modifer app.blade.php
+le cas échéant comment faire communiquer les deux pages
 -->
