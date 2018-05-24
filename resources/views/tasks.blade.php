@@ -30,7 +30,7 @@
                             <label for="img-coloc" class="col-sm-3 control-label">Image</label>
 
                             <div class="col-sm-6">
-                                <input type="file" name="image" id="img-coloc" class="form" value="{{ old('task') }}">
+                                <input type="file" name="img" id="img-coloc" class="form" value="{{ old('task') }}">
                             </div>
                         </div>
 
@@ -63,7 +63,6 @@
                                 @foreach ($tasks as $task)
                                     <tr>
                                         <td class="table-text"><div>{{ $task->name }}</div></td>
-                                        <td class="table-img"><div>{{ $task->img }}</div> </td>
 
                                         <!-- Task Delete Button -->
                                         <td>
