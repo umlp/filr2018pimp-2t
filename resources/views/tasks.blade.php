@@ -54,8 +54,8 @@
         // alert("test1");
         var nom = document.getElementById("nom-coloc").value;
         alert(nom);
-        // var menu = document.getElementById("listcoloc");
-        // alert(menu.className);
+        var mvfsenu = document.getElementById("listcoloc");
+        // alert(menu.);
         // menu.append("<li><a href="#">" $nom "</a></li>");
     }
     </script>
