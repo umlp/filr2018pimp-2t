@@ -55,7 +55,7 @@
         var nom = document.getElementById("nom-coloc").value;
         alert(nom);
         // var menu = document.getElementById("listcoloc");
-        // alert("2");
+        alert("2");
         // alert(menu.name);
         // menu.append("<li><a href="#">" $nom "</a></li>");
     }
