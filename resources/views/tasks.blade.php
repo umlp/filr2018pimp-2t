@@ -50,6 +50,7 @@
     <script type="text/javascript">
     function ajoute()
     {
+        alert("0");
         var nom = document.getElementById("nom-coloc").value;
         alert("1");
         var menu = document.getElementById("listcoloc");
