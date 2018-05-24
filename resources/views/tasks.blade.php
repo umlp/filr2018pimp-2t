@@ -16,12 +16,21 @@
                     <form action="{{ url('task')}}" method="POST" class="form-horizontal">
                         {{ csrf_field() }}
 
-                        <!-- Task Name -->
+                        <!-- nom Colocation -->
                         <div class="form-group">
                             <label for="nom-coloc" class="col-sm-3 control-label">Nom de la colocation</label>
 
                             <div class="col-sm-6">
                                 <input type="text" name="name" id="nom-coloc" class="form-control" value="{{ old('task') }}">
+                            </div>
+                        </div>
+
+                        <!-- Image colocation -->
+                        <div class="form-group">
+                            <label for="img-coloc" class="col-sm-3 control-label">Nom de la colocation</label>
+
+                            <div class="col-sm-6">
+                                <input type="file" name="image" id="img-coloc" class="form-control" value="{{ old('task') }}">
                             </div>
                         </div>
 
@@ -62,7 +71,7 @@
                                                 {{ method_field('DELETE') }}
 
                                                 <button type="submit" class="btn btn-danger">
-                                                    <i class="fa fa-btn fa-trash"></i>Delete
+                                                    <i class="fa fa-btn fa-trash"></i>Supprimer colocation
                                                 </button>
                                             </form>
                                         </td>
