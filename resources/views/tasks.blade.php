@@ -3,22 +3,13 @@
 @section('content')
 
     <!-- menu -->
-    <div class="collapse navbar-collapse" id="navBar">
-        <ul class="nav navbar-nav">
-        <li class="dropdown">
-          <a class="dropdown-toggle" data-toggle="dropdown"  href="#">Mes Colocations <span class="caret"></span></a>
-          <ul class="dropdown-menu" id="listcoloc"></ul>
-        </li>
-        <li><a href="stats.html">Statistiques</a></li>
-      </ul>
-    </div>
 
     <!-- ajout colloc -->
     <div class="container">
         <div class="col-sm-offset-2 col-sm-8">
             <div class="panel panel-default">
                 <div class="panel-heading">
-                    Créer une colocation
+                    Ajouter un colocataire
                 </div>
 
                 <div class="panel-body">
@@ -31,7 +22,7 @@
 
                         <!-- nom Colocation -->
                         <div class="form-group">
-                            <label for="nom-coloc" class="col-sm-3 control-label">Nom de la colocation</label>
+                            <label for="nom-coloc" class="col-sm-3 control-label">Nom du colocataire</label>
 
                             <div class="col-sm-6">
                                 <input type="text" name="name" id="nom-coloc" class="form-control" value="{{ old('task') }}">
@@ -40,7 +31,7 @@
 
                         <!-- Image colocation -->
                         <div class="form-group">
-                            <label for="img-coloc" class="col-sm-3 control-label">Image</label>
+                            <label for="img-coloc" class="col-sm-3 control-label">Photo</label>
 
                             <div class="col-sm-6">
                                 <input type="file" name="img" id="img-coloc" class="form" value="{{ old('task') }}">
@@ -51,7 +42,7 @@
                         <div class="form-group">
                             <div class="col-sm-offset-3 col-sm-6">
                                 <button type="submit" class="btn btn-default"  onClick="ajoute()">
-                                    <i class="fa fa-btn fa-plus"></i>Ajouter la colocation
+                                    <i class="fa fa-btn fa-plus"> Ajouter le collataire </i>
                                 </button>
                             </div>
                         </div>
@@ -118,3 +109,12 @@
         </div>
     </div>
 @endsection
+
+
+
+<!--QUESTIONS A POSER AU PROF :
+Comment ne pas suprimer les ajout dynamiques au code html
+comment ajouter un champs image à task pour pouvoir l'afficher sur l'ajout des taches
+comment naviguer entre plusieurs pages (et en rajouter)
+Si j'ai le droit me modifer app.blade.php
+-->
