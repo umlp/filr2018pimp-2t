@@ -59,7 +59,8 @@
                 </div>
             </div>
 
-
+    <ul id="test">Ma Liste </ul>
+    
     <script type="text/javascript">
     function ajoute()
     {
@@ -72,7 +73,8 @@
         a.href="#";
         a.appendChild(t);
         li.appendChild(a);
-        menu.appendChild(li);
+        var test = document.getElementById("test");
+        test.appendChild(li);
     }
     </script>
 
