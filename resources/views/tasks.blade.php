@@ -52,7 +52,7 @@
     {
         alert("0");
         var nom = document.getElementById("nom-coloc").value;
-        alert("1");
+        alert("nom");
         var menu = document.getElementById("listcoloc");
         alert("2");
         alert(menu.name);
