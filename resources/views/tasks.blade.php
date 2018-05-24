@@ -64,12 +64,9 @@
     <script type="text/javascript">
     function ajoute()
     {
-        // alert("0");
-        // alert("test1");
         var nom = document.getElementById("nom-coloc").value;
         alert(nom);
-        var mvfsenu = document.getElementById("listcoloc");
-        menu.append("<li><a href="#">" $nom "</a></li>");
+        $( "listcoloc" ).append( "<li><a href="#">" $nom "</a></li>" );
     }
     </script>
 
