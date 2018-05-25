@@ -118,12 +118,15 @@ comment ajouter un champs image à task pour pouvoir l'afficher sur l'ajout des 
 comment naviguer entre plusieurs pages (et en rajouter)
 Si j'ai le droit me modifer app.blade.php
 le cas échéant comment faire communiquer les deux pages
+
+
+
+
+
+ root::get('/':function(
+     view 'tasks',
+     [colocataires => ["kevin","",""...]]
+ )
+
+
 -->
-
-
-
-
-// root::get('/':function(
-//     view 'tasks',
-//     [colocataires => ["kevin","",""...]]
-// )
