@@ -36,7 +36,10 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>   
+      
         
+      </button>
+      <a class="navbar-brand" href="#">ColocManager   </a>
 
 
         <li class="dropdown">
@@ -51,10 +54,6 @@
         <div class="collapse navbar-collapse" id="navBar">
           <ul class="nav navbar-nav"></ul>
         </div>
-
-        
-      </button>
-      <a class="navbar-brand" href="#">ColocManager   </a>
 
 
 
