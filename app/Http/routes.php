@@ -16,7 +16,7 @@ use Illuminate\Http\Request;
 
 
 Route::get('stats', function () {
-    return view('subs/stats');
+    return view('stats');
 });
 Route::get('agen', function () {
     return view('subs/agen');
