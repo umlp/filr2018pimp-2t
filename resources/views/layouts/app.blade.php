@@ -41,14 +41,11 @@
           <a class="dropdown-toggle" data-toggle="dropdown"  href="/">Mes Colocataires <span class="caret"></span></a>
           <ul class="dropdown-menu" id="listcoloc">
           @foreach ($tasks as $task)
-
-            <div id="sf-resetcontent" class="sf-reset">
-                  <li class="table-text">
-                    <a href="#">
-                      <span class="glyphicon glyphicon-user"></span>
-                      {{ $task->name }}</a>
-                  </il>
-            </div>
+            <li class="table-text">
+              <a href="#">
+                <span class="glyphicon glyphicon-user"></span>
+                {{ $task->name }}</a>
+            </il>
           @endforeach
           </ul>
         </li>
