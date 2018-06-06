@@ -36,8 +36,6 @@
       <a class="navbar-brand" href="/">ColocManager   </a>
 
         <ul class="nav navbar-nav">
-        
-        <div class="collapse navbar-collapse" id="navBar">
 
           <li class="dropdown">
           <a class="dropdown-toggle" data-toggle="dropdown"  href="/">Mes Colocataires <span class="caret"></span></a>
@@ -58,11 +56,7 @@
         <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
         <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
       </ul>
-
-
-        </div>
     </div>
-  </div>
   
   <div class="collapse navbar-collapse" id="navBarDebut">  
 

@@ -3,5 +3,5 @@
 @section('content')
 
 <div class="container">
-        <p>TAME</p>
-    </div>
+  <p>TAME</p>
+</div>
