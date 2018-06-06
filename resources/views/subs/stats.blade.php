@@ -3,7 +3,7 @@
 @section('content')
 
 <div class="container">
-  <p>TAME</p>
+  <p>les stats</p>
 </div>
 
 @endsection
