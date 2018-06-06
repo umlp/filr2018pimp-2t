@@ -52,9 +52,9 @@
           <ul class="dropdown-menu" id="listcoloc"></ul>
         </li>
         
-        <li><a href="stats.html">Statistiques</a></li>
-        <li><a href="stats.html">Tâches Ménagères</a></li>
-        <li><a href="stats.html">Agenda</a></li>
+        <li><a href="stats">Statistiques</a></li>
+        <li><a href="#">Tâches Ménagères</a></li>
+        <li><a href="#">Agenda</a></li>
         
         <div class="collapse navbar-collapse" id="navBar">
           <ul class="nav navbar-nav"></ul>
