@@ -44,7 +44,7 @@
         
         <li><a href="stats">Statistiques</a></li>
         <li><a href="#">Tâches Ménagères</a></li>
-        <li><a href="#">Agenda</a></li>
+        <li><a href="agen">Agenda</a></li>
 
         </ul>
 
