@@ -14,6 +14,18 @@
 use App\Task;
 use Illuminate\Http\Request;
 
+Route::get('stats', function () {
+    return view('subs/stats');
+    });
+
+Route::get('agen', function () {
+        return view('subs/agen');
+    });
+
+Route::get('TM', function () {
+    return view('subs/TM');
+});
+
 
 Route::group(['middleware' => ['web']], function () {
     /**
@@ -24,18 +36,6 @@ Route::group(['middleware' => ['web']], function () {
             'tasks' => Task::orderBy('created_at', 'asc')->get()
             ]);
         });
-        
-    Route::get('stats', function () {
-        return view('stats');
-    });
-    
-    Route::get('agen', function () {
-            return view('subs/agen');
-        });
-
-    Route::get('TM', function () {
-        return view('subs/TM');
-    });
     
     /**
      * Add New Task
