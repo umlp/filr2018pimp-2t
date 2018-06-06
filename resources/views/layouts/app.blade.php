@@ -41,22 +41,15 @@
           <a class="dropdown-toggle" data-toggle="dropdown"  href="/">Mes Colocataires <span class="caret"></span></a>
           <ul class="dropdown-menu" id="listcoloc">
           @foreach ($tasks as $task)
-            <tr>
-                <li class="table-text">{{ $task->name }}</il>
-            </tr>
+            <li class="table-text">{{ $task->name }}</il>
           @endforeach
           </ul>
         </li>
         
         <li><a href="stats">Statistiques</a></li>
-        <li><a href="#">Tâches Ménagères</a></li>
+        <li><a href="TM">Tâches Ménagères</a></li>
         <li><a href="agen">Agenda</a></li>
-
         </ul>
-
-        <!-- <ul class="nav navbar-nav"> -->
-        <!-- </ul> -->
-
 
     </div>
       <ul class="nav navbar-nav navbar-right">

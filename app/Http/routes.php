@@ -33,6 +33,10 @@ Route::group(['middleware' => ['web']], function () {
     Route::get('agen', function () {
         return view('subs/agen');
     });
+
+    Route::get('TM', function () {
+        return view('subs/TM');
+    });
     
     /**
      * Add New Task
