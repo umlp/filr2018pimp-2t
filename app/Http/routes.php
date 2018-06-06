@@ -15,7 +15,9 @@ use App\Task;
 use Illuminate\Http\Request;
 
 
-
+ Route::get('agen', function () {
+        return view('subs/agen');
+    });
 Route::group(['middleware' => ['web']], function () {
     /**
      * Show Task Dashboard
@@ -30,9 +32,7 @@ Route::group(['middleware' => ['web']], function () {
         return view('subs/stats');
     });
 
-    Route::get('agen', function () {
-        return view('subs/agen');
-    });
+   
 
     Route::get('TM', function () {
         return view('subs/TM');
