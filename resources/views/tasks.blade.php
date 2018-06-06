@@ -29,15 +29,6 @@
                             </div>
                         </div>
 
-                        <!-- Image colocation -->
-                        <div class="form-group">
-                            <label for="img-coloc" class="col-sm-3 control-label">Photo</label>
-
-                            <div class="col-sm-6">
-                                <input type="file" name="img" id="img-coloc" class="form" value="{{ old('task') }}">
-                            </div>
-                        </div>
-
                         <!-- Add Task Button -->
                         <div class="form-group">
                             <div class="col-sm-offset-3 col-sm-6">
