@@ -21,6 +21,7 @@ Route::get('/', function () {
 Route::get('stats', function () {
     return view('stats/stats');
 });
+
 Route::group(['middleware' => ['web']], function () {
     /**
      * Show Task Dashboard
@@ -29,6 +30,10 @@ Route::group(['middleware' => ['web']], function () {
         return view('tasks', [
             'tasks' => Task::orderBy('created_at', 'asc')->get()
         ]);
+    });
+
+    Route::get('stats', function () {
+        return view('stats/stats');
     });
 
     /**
@@ -59,10 +64,6 @@ Route::group(['middleware' => ['web']], function () {
         Task::findOrFail($id)->delete();
 
         return redirect('/');
-    });
-
-    Route::get('/stats', function () {
-        return view('stats/stats.php');
     });
 });
 

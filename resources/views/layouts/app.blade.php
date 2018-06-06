@@ -35,18 +35,8 @@
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
-        <span class="icon-bar"></span>   
-      
-        
-      </button>
-      <a class="navbar-brand" href="#">ColocManager   </a>
-
-    </div>
-  </div>
-  
-  <div class="collapse navbar-collapse" id="navBarDebut">
-
-
+        <span class="icon-bar"></span> 
+          
         <li class="dropdown">
           <a class="dropdown-toggle" data-toggle="dropdown"  href="#">Mes Colocataires <span class="caret"></span></a>
           <ul class="dropdown-menu" id="listcoloc"></ul>
@@ -62,8 +52,14 @@
 
 
 
+        
+      </button>
+      <a class="navbar-brand" href="#">ColocManager   </a>
 
+    </div>
+  </div>
   
+  <div class="collapse navbar-collapse" id="navBarDebut">  
 
       <ul class="nav navbar-nav navbar-right">
         <li class="active"><a href="#">Home</a></li>
