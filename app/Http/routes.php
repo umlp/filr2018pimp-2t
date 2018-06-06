@@ -60,6 +60,6 @@ Route::group(['middleware' => ['web']], function () {
 
         return redirect('/');
     });
-});*/
+});
 
 
