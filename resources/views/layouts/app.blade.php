@@ -38,7 +38,10 @@
         <span class="icon-bar"></span> 
       </button>
       <a class="navbar-brand" href="#">ColocManager   </a>
-      <li class="dropdown">
+        <div class="collapse navbar-collapse" id="navBar">
+          <ul class="nav navbar-nav">
+          
+        <li class="dropdown">
           <a class="dropdown-toggle" data-toggle="dropdown"  href="#">Mes Colocataires <span class="caret"></span></a>
           <ul class="dropdown-menu" id="listcoloc"></ul>
         </li>
@@ -47,8 +50,9 @@
         <li><a href="#">Tâches Ménagères</a></li>
         <li><a href="#">Agenda</a></li>
         
-        <div class="collapse navbar-collapse" id="navBar">
-          <ul class="nav navbar-nav"></ul>
+          
+          </ul>
+
         </div>
     </div>
   </div>
