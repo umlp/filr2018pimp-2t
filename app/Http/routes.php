@@ -56,7 +56,7 @@ use Illuminate\Http\Request;
 // });*/
 
 Route::get('/', function () {
-         return view('task');
+         return view('tasks');
 });
 
 Route::get('stats', function () {
