@@ -5,3 +5,5 @@
 <div class="container">
   <p>TAME</p>
 </div>
+
+@endsection
