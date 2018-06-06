@@ -109,24 +109,3 @@
         </div>
     </div>
 @endsection
-
-
-
-<!--QUESTIONS A POSER AU PROF :
-Comment ne pas suprimer les ajout dynamiques au code html
-comment ajouter un champs image à task pour pouvoir l'afficher sur l'ajout des taches
-comment naviguer entre plusieurs pages (et en rajouter)
-Si j'ai le droit me modifer app.blade.php
-le cas échéant comment faire communiquer les deux pages
-
-
-
-
-
- root::get('/':function(
-     view 'tasks',
-     [colocataires => ["kevin","",""...]]
- )
-
-
--->
