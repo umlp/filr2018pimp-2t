@@ -37,25 +37,25 @@
 
         <ul class="nav navbar-nav">
 
-          <li class="dropdown">
-          <a class="dropdown-toggle" data-toggle="dropdown"  href="/">Mes Colocataires <span class="caret"></span></a>
-          <ul class="dropdown-menu" id="listcoloc"></ul>
+            <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown"  href="/">Mes Colocataires <span class="caret"></span></a>
+            <ul class="dropdown-menu" id="listcoloc">
+            @foreach ($tasks as $task)
+                <li><a href="#"><span class="glyphicon glyphicon-user"></span> {{ $task->name }}</a></li>
+            @endforeach
+            </ul>
         </li>
         
         <li><a href="stats">Statistiques</a></li>
-        <li><a href="#">Tâches Ménagères</a></li>
+        <li><a href="TM">Tâches Ménagères</a></li>
         <li><a href="agen">Agenda</a></li>
 
         </ul>
 
-        <!-- <ul class="nav navbar-nav"> -->
-        <!-- </ul> -->
-
-
     </div>
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-log-out"></span> Log-out</a></li>
       </ul>
   
   <div class="collapse navbar-collapse" id="navBarDebut">  

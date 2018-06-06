@@ -30,10 +30,15 @@ Route::group(['middleware' => ['web']], function () {
     Route::get('stats', function () {
         return view('subs/stats');
     });
-    
+
     Route::get('agen', function () {
         return view('subs/agen');
     });
+
+    Route::get('TM', function () {
+        return view('subs/TM');
+    });
+
     /**
      * Add New Task
      */
