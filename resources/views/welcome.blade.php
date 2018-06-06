@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+
 @extends('layouts.app')
 
 @section('content')
@@ -51,22 +53,6 @@
             </div>
 
     <!-- <ul id="test">Ma Liste </ul> -->
-
-    <script type="text/javascript">
-    function ajoute()
-    {
-        var nom = document.getElementById("nom-coloc").value;
-        // alert(nom);
-        var menu = document.getElementById("listcoloc");
-        var li = document.createElement("LI");
-        var a = document.createElement("A");
-        var t = document.createTextNode(nom);
-        a.href="#";
-        a.appendChild(t);
-        li.appendChild(a);
-        // var test = document.getElementById("test");
-        menu.appendChild(li);
-    }
     </script>
 
 
