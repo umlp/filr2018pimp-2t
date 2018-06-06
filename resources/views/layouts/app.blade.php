@@ -34,6 +34,9 @@
     <div class="navbar-header">
 
       <a class="navbar-brand" href="/">ColocManager   </a>
+
+        <ul class="nav navbar-nav">
+        
         <div class="collapse navbar-collapse" id="navBar">
 
           <li class="dropdown">
@@ -45,18 +48,18 @@
         <li><a href="#">Tâches Ménagères</a></li>
         <li><a href="#">Agenda</a></li>
 
+        </ul>
 
         <!-- <ul class="nav navbar-nav"> -->
         <!-- </ul> -->
 
 
       <ul class="nav navbar-nav navbar-right">
-        <li class="active"><a href="#">Home</a></li>
         <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
         <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
       </ul>
 
-      
+
         </div>
     </div>
   </div>
