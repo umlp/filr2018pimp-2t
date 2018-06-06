@@ -14,6 +14,13 @@
 use App\Task;
 use Illuminate\Http\Request;
 
+Route::get('/', function () {
+    return view('welcome');
+});
+
+Route::get('stats', function () {
+    return view('stats/stats');
+});
 // Route::group(['middleware' => ['web']], function () {
 //     /**
 //      * Show Task Dashboard
@@ -55,10 +62,4 @@ use Illuminate\Http\Request;
 //     });
 // });*/
 
-Route::get('/', function () {
-         return view('index');
-});
 
-Route::get('stats', function () {
-         return view('stats/stats');
-});
