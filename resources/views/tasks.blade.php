@@ -50,23 +50,7 @@
                 </div>
             </div>
 
-    <!-- <ul id="test">Ma Liste </ul> -->
 
-    <script type="text/javascript">
-    function ajoute()
-    {
-        var nom = document.getElementById("nom-coloc").value;
-        // alert(nom);
-        var menu = document.getElementById("listcoloc");
-        var li = document.createElement("LI");
-        var a = document.createElement("A");
-        var t = document.createTextNode(nom);
-        a.href="#";
-        a.appendChild(t);
-        li.appendChild(a);
-        // var test = document.getElementById("test");
-        menu.appendChild(li);
-    }
     </script>
 
 
@@ -109,24 +93,3 @@
         </div>
     </div>
 @endsection
-
-
-
-<!--QUESTIONS A POSER AU PROF :
-Comment ne pas suprimer les ajout dynamiques au code html
-comment ajouter un champs image à task pour pouvoir l'afficher sur l'ajout des taches
-comment naviguer entre plusieurs pages (et en rajouter)
-Si j'ai le droit me modifer app.blade.php
-le cas échéant comment faire communiquer les deux pages
-
-
-
-
-
- root::get('/':function(
-     view 'tasks',
-     [colocataires => ["kevin","",""...]]
- )
-
-
--->

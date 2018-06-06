@@ -1,4 +1,8 @@
 <!DOCTYPE html>
+
+@extends('layouts.app')
+
+@section('content')
 <html>
   <head>
     <title>Formulaire d'inscription au forum ASI</title>
