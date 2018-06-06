@@ -60,6 +60,10 @@ Route::group(['middleware' => ['web']], function () {
 
         return redirect('/');
     });
+
+    Route::get('/stats', function () {
+        return view('stats/stats.php');
+    });
 });
 
 
