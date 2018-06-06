@@ -26,7 +26,7 @@ Route::group(['middleware' => ['web']], function () {
         });
         
     Route::get('stats', function () {
-        return view('subs/stats');
+        return view('stats');
     });
     
     Route::get('agen', function () {
