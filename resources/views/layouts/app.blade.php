@@ -43,13 +43,11 @@
           @foreach ($tasks as $task)
 
             <div id="sf-resetcontent" class="sf-reset">
-                <h1>
                   <li class="table-text">
                     <a href="#">
                       <span class="glyphicon glyphicon-user"></span>
                       {{ $task->name }}</a>
                   </il>
-                </h1>
             </div>
           @endforeach
           </ul>
