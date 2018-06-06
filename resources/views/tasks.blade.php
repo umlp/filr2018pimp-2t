@@ -56,7 +56,6 @@
                         <table class="table table-striped task-table">
                             <thead>
                                 <th>Nom</th>
-                                <th>Image</th>
                                 <th>&nbsp;</th>
                             </thead>
                             <tbody>
