@@ -44,7 +44,7 @@
           $("#infobulle").css('position','absolute');
           $("#infobulle").css('top',250) ;
           $("#infobulle").css('left',400) ;
-          
+
           $("#message").css('position','relative') ;
           $("#message").css('bottom',100);
           $("#message").css('left',100);
@@ -64,7 +64,7 @@
           $("#email").keyup(function() {valider(this);});
 
           function valider(champs){
-        
+
             var x = $(champs).position().top;
             var y = $(champs).position().left+325;
             var val;
@@ -127,17 +127,17 @@
                 break;
               case("sad"):
                 $('#message').css('background-color','Red');
-                break;  
+                break;
             }
 
-            
+
             $("#infobulle").animate({
               top:x,
               left:y
             })
 
             $('#message').text(message);
-          
+
           }
 
 
