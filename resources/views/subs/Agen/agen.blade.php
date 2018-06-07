@@ -5,11 +5,11 @@
 <!-- demo stylesheet -->
 <link type="text/css" rel="stylesheet" href="media/layout.css">
 
-<link type="text/css" rel="stylesheet" href="calendar_g.css">
-<link type="text/css" rel="stylesheet" href="calendar_green.css">
-<link type="text/css" rel="stylesheet" href="calendar_traditional.css">
-<link type="text/css" rel="stylesheet" href="calendar_transparent.css">
-<link type="text/css" rel="stylesheet" href="calendar_white.css">
+<link type="text/css" rel="stylesheet" href="public/calendar_g.css">
+<link type="text/css" rel="stylesheet" href="public/calendar_green.css">
+<link type="text/css" rel="stylesheet" href="public/calendar_traditional.css">
+<link type="text/css" rel="stylesheet" href="public/calendar_transparent.css">
+<link type="text/css" rel="stylesheet" href="public/calendar_white.css">
 
 <!-- helper libraries -->
 <script src="js/jquery-1.9.1.min.js" type="text/javascript"></script>
