@@ -3,7 +3,7 @@
 @section('content')
 
 <div class="container">
-  <p>les taches ménagères</p>
+  <p>Liste des tâches ménagères (pas implémentées)</p>
 </div>
 
 @endsection
