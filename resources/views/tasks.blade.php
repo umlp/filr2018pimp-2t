@@ -60,7 +60,7 @@
                             <tbody>
                                 @foreach ($tasks as $task)
                                     <tr>
-                                        <td class="table-text"><div>{{ $task->name }}</div></td>
+                                        <td class="table-text"><div style="margin: auto">{{ $task->name }}</div></td>
                                         <!-- Task Delete Button -->
                                         <td>
                                             <form action="{{ url('task/'.$task->id) }}" method="POST">
@@ -73,7 +73,7 @@
                                             </form>
                                         </td>
                                         <td>
-                                            <a href="{{ $task->name }}">Voir le profil</a>
+                                            <a href="{{ $task->name }}"><div style="margin: auto">Voir le profil</div></a>
                                         </td>
                                     </tr>
                                 @endforeach
