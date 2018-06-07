@@ -2,27 +2,6 @@
 
 @section('content')
 
-<!DOCTYPE html>
-<html>
-<head>
-    <title>HTML5/JavaScript Event Calendar</title>
-	<!-- demo stylesheet -->
-    	<link type="text/css" rel="stylesheet" href="media/layout.css" />
-
-        <link type="text/css" rel="stylesheet" href="themes/calendar_g.css" />
-        <link type="text/css" rel="stylesheet" href="themes/calendar_green.css" />
-        <link type="text/css" rel="stylesheet" href="themes/calendar_traditional.css" />
-        <link type="text/css" rel="stylesheet" href="themes/calendar_transparent.css" />
-        <link type="text/css" rel="stylesheet" href="themes/calendar_white.css" />
-
-	<!-- helper libraries -->
-	<script src="js/jquery-1.9.1.min.js" type="text/javascript"></script>
-
-	<!-- daypilot libraries -->
-        <script src="js/daypilot/daypilot-all.min.js" type="text/javascript"></script>
-
-</head>
-
 
         <div class="shadow"></div>
         <div class="hideSkipLink">
