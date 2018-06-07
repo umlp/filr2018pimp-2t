@@ -2,8 +2,6 @@
 
 @section('content')
 
-    <!-- menu -->
-
     <!-- ajout colloc -->
     <div class="container">
         <div class="col-sm-offset-2 col-sm-8">
@@ -26,15 +24,6 @@
 
                             <div class="col-sm-6">
                                 <input type="text" name="name" id="nom-coloc" class="form-control" value="{{ old('task') }}">
-                            </div>
-                        </div>
-
-                        <!-- Image colocation -->
-                        <div class="form-group">
-                            <label for="img-coloc" class="col-sm-3 control-label">Photo</label>
-
-                            <div class="col-sm-6">
-                                <input type="file" name="img" id="img-coloc" class="form" value="{{ old('task') }}">
                             </div>
                         </div>
 
@@ -65,7 +54,6 @@
                         <table class="table table-striped task-table">
                             <thead>
                                 <th>Nom</th>
-                                <th>Image</th>
                                 <th>&nbsp;</th>
                             </thead>
                             <tbody>

@@ -41,6 +41,16 @@
             <a class="dropdown-toggle" data-toggle="dropdown"  href="/">Mes Colocataires <span class="caret"></span></a>
             <ul class="dropdown-menu" id="listcoloc">
 
+
+            @if (count($tasks) > 0)
+                @foreach ($tasks as $task)
+                    <a href="#">{{ $task->name }}</a>
+                @endforeach
+            @endif
+
+
+
+
           </ul>
         </li>
         
