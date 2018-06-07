@@ -79,7 +79,7 @@
                                                 {{ method_field('DELETE') }}
 
                                                 <button type="submit" class="btn btn-danger">
-                                                    <i class="fa fa-btn fa-trash"></i>Supprimer colocation
+                                                    <i class="fa fa-btn fa-trash"></i>Supprimer le Colocataire
                                                 </button>
                                             </form>
                                         </td>
