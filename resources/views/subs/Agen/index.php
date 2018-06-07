@@ -22,16 +22,8 @@
         <script src="js/daypilot/daypilot-all.min.js" type="text/javascript"></script>
 
 </head>
-<body>
-        <div id="header">
-			<!-- <div class="bg-help">
-				<div class="inBox">
-					<!--<h1 id="logo"><a href='https://code.daypilot.org/17910/html5-event-calendar-open-source'>HTML5/JavaScript Event Calendar</a></h1>
-					<p id="claim"><a href="https://javascript.daypilot.org/">DayPilot for JavaScript</a> - AJAX Calendar/Scheduling Widgets for JavaScript/HTML5/jQuery</p>
-					<hr class="hidden" />
-				</div>
-			</div>-->
-        </div>
+
+
         <div class="shadow"></div>
         <div class="hideSkipLink">
         </div>
@@ -160,7 +152,4 @@
         </div>
         <div class="clear">
         </div>
-
-</body>
-</html>
 @endsection
