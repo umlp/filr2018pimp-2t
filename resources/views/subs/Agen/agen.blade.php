@@ -5,7 +5,7 @@
 <!-- demo stylesheet -->
 <link type="text/css" rel="stylesheet" href="media/layout.css">
 
-<link type="text/css" rel="stylesheet" href="public/calendar_g.css">
+<link type="text/css" rel="stylesheet" href="calendar_g.css">
 
 
 <!-- helper libraries -->
