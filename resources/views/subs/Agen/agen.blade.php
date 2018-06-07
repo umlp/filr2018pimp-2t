@@ -16,7 +16,6 @@
 <!-- daypilot libraries -->
 <script src="js/daypilot/daypilot-all.min.js" type="text/javascript"></script><style type="text/css"></style><style type="text/css"></style>
 
- </div>
         <div class="shadow"></div>
         <div class="hideSkipLink">
         </div>
