@@ -55,6 +55,7 @@
                             <thead>
                                 <th>Nom</th>
                                 <th>&nbsp;</th>
+                                <th></th>
                             </thead>
                             <tbody>
                                 @foreach ($tasks as $task)
@@ -70,6 +71,9 @@
                                                     <i class="fa fa-btn fa-trash"></i>Supprimer le Colocataire
                                                 </button>
                                             </form>
+                                        </td>
+                                        <td>
+                                            <a href="{{ $task->name }}">Voir le profil</a>
                                         </td>
                                     </tr>
                                 @endforeach

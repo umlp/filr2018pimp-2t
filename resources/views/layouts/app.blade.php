@@ -35,25 +35,7 @@
 
       <a class="navbar-brand" href="/">ColocManager   </a>
 
-        <ul class="nav navbar-nav">
-
-            <li class="dropdown">
-            <a class="dropdown-toggle" data-toggle="dropdown"  href="/">Mes Colocataires <span class="caret"></span></a>
-            <ul class="dropdown-menu" id="listcoloc">
-
-
-            @if (count($tasks) > 0)
-                @foreach ($tasks as $task)
-                    <a href="#">{{ $task->name }}</a>
-                @endforeach
-            @endif
-
-
-
-
-          </ul>
-        </li>
-        
+        <ul class="nav navbar-nav">        
         <li><a href="stats">Statistiques</a></li>
         <li><a href="TM">Tâches Ménagères</a></li>
         <li><a href="agen">Agenda</a></li>
