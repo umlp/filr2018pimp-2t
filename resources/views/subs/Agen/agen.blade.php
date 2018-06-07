@@ -1,6 +1,13 @@
+@extends('layouts.app')
+
+@section('content')
+
+
+
+
 
        
-<head>
+       <head>
 
 <title>HTML5/JavaScript Event Calendar</title>
 	<!-- demo stylesheet -->
@@ -147,3 +154,6 @@
         </div>
         <div class="clear">
         </div>
+
+
+@endsection
